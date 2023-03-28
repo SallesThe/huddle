@@ -10,27 +10,102 @@
     width: 100vw;
     background: url(/images/bg-desktop.svg);
     background-size: cover;
-    background-color: hsl(257, 40%, 49%);
+    background-color: #674baf;
 }
 
 .huddle_container {
-    width: 90%;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
     height: 95%;
-    border: 5px solid yellow;
 }
 
 .huddle_headline {
-    border: 1px solid red;
+    margin-bottom: 50px;
+}
+
+.huddle_container_content {
+    display: flex;
+
 }
 
 .huddle_image {
-    border: 1px solid red;
+    flex-basis: 55%;
 }
 
-.huddle_text {
-    border: 1px solid red;
+.huddle_image img {
+    width: 850px;
+}
+
+.huddle_text_container {
+    display: flex;
+    flex-basis: 45%;
+    align-items: center;
+
+}
+
+.huddle_text_content h1 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2.8em;
+    line-height: 70px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.huddle_text_content p {
+    color: #fff;
+    font-size: 1.0em;
+    font-weight: 100;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.huddle_button_register {
+    color: #674baf;
+    padding: 15px 70px;
+    font-size: 1.1em;
+    border-radius: 100px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: -1px 8px 22px -1px rgba(0,0,0,0.38);
+    border: none;
+    text-decoration: none;
+    background-color: #fff;
+    transition: .3s ease;
+}
+
+.huddle_button_register:hover {
+    background-color: violet;
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    height: 1250px;
+    width: 1815px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
 }
 
 .huddle_footer {
+    display: flex;
+    width: 90%;
+    position: absolute;
+    justify-content: center;
     border: 1px solid red; 
+}
+
+.huddle_footer_paragraph {
+    color: #fff;
+}
+
+.huddle_footer_paragraph a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.huddle_footer_social_media {
+    border: 2px solid red;
 }
