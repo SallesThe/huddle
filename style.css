@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
+
+.huddle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: url(/images/bg-desktop.svg);
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+}
+
+.huddle_container {
+    width: 90%;
+    height: 95%;
+    border: 5px solid yellow;
+}
+
+.huddle_headline {
+    border: 1px solid red;
+}
+
+.huddle_image {
+    border: 1px solid red;
+}
+
+.huddle_text {
+    border: 1px solid red;
+}
+
+.huddle_footer {
+    border: 1px solid red; 
+}
