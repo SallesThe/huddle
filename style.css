@@ -10,27 +10,130 @@
     width: 100vw;
     background: url(/images/bg-desktop.svg);
     background-size: cover;
-    background-color: hsl(257, 40%, 49%);
+    background-color: #674baf;
 }
 
 .huddle_container {
-    width: 90%;
-    height: 95%;
-    border: 5px solid yellow;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
 }
 
 .huddle_headline {
-    border: 1px solid red;
+    margin-bottom: 50px;
+}
+
+.huddle_container_content {
+    display: flex;
+
 }
 
 .huddle_image {
-    border: 1px solid red;
+    flex-basis: 55%;
 }
 
-.huddle_text {
-    border: 1px solid red;
+.huddle_image img {
+    width: 850px;
+}
+
+.huddle_text_container {
+    display: flex;
+    flex-basis: 45%;
+    align-items: center;
+
+}
+
+.huddle_text_content h1 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2.8em;
+    line-height: 70px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.huddle_text_content p {
+    color: #fff;
+    font-size: 1.0em;
+    font-weight: 100;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.huddle_button_register {
+    color: #674baf;
+    padding: 15px 70px;
+    font-size: 1.1em;
+    border-radius: 100px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: -1px 8px 22px -1px rgba(0,0,0,0.38);
+    border: none;
+    text-decoration: none;
+    background-color: #fff;
+    transition: .3s ease;
+}
+
+.huddle_button_register:hover {
+    background-color: violet;
+    color: #fff;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
 }
 
 .huddle_footer {
-    border: 1px solid red; 
+    display: flex;
+    width: 90%;
+    justify-content: center;
 }
+
+.huddle_footer_paragraph {
+    color: #fff;
+}
+
+.huddle_footer_paragraph p {
+    font-size: .8em;
+}
+
+.huddle_footer_paragraph a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.huddle_footer_social_media {
+    display: flex;
+    justify-content: flex-end;
+    width: 70%;
+}
+
+.huddle_footer_social_media i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    font-size: 2em;
+    color: #fff;
+    padding: 5px;
+    transition: .2s ease-in-out;
+}
+
+.huddle_footer_social_media a {
+    text-decoration: none;
+}
+
+.huddle_footer_social_media i:hover {
+    color: #ffa5ff;
+    border: 2px solid #633ec2;
+}
+
